@@ -1,0 +1,44 @@
+.ms-auto a {
+    color: #e01705;
+}
+
+body {
+    transition: 1s;
+}
+
+.hov:hover {
+    background-color: #e01705;
+    transition: 1s;
+}
+.navbar-brand img{
+    width: 80px;
+}
+
+.bb:hover i {
+    color: white;
+    transition: 1s;
+}
+
+.bb:hover p {
+    color: white;
+    transition: 1s;
+}
+
+.bb i {
+    color: rgb(36, 36, 22);
+}
+
+.carsual:hover {
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+/*------------------jquary---------------------*/
+/*------------------mobile----------------------*/
+
+@media only screen and (max-width:600px {
+    .our-p {
+        font-size: 2rem;
+    }
+}
+/*----------------tablat--------------*/
+
+@media only screen and (min-width: 600px) and (max-width:992px) {}
